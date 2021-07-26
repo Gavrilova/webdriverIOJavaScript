@@ -1,0 +1,16 @@
+{
+  "name": "may2021webdriver-js-gavrilova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.0.3"
+  }
+}
