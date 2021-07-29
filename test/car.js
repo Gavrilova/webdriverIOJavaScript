@@ -9,7 +9,7 @@ export class Car {
     }
 
     drive(){
-        console.log(this.name + "I'm driving");
+        console.log(this.name + " I'm driving.");
     }
 
     stop(){
