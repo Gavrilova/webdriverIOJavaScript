@@ -3,25 +3,27 @@ export class Car {
         this.name = name;
         this.year = year;
     }
+
     age() {
         let date = new Date();
         return date.getFullYear() - this.year;
     }
 
-    drive(){
+    drive() {
         console.log(this.name + " I'm driving.");
     }
 
-    stop(){
+    stop() {
         console.log(this.name + " I'm stopping.");
     }
 
-    turnLeft(){
+    turnLeft() {
         console.log(this.name + " I'm turning Left once.");
     }
 
-    turnRight(){
+    turnRight() {
         console.log(this.name + " I'm turning Right");
     }
 }
-//export default new Car();
+
+
